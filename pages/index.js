@@ -1,8 +1,12 @@
 import Head from "next/head";
 
 import MainLayout from "../components/layouts/MainLayout";
-import Hero1 from '../components/Hero1/Hero1';
+import Hero1 from '../components/Hero1/Hero1'; 
 import Hero2 from '../components/Hero2/Hero2';
+import Collection1 from '../components/Collection1/Collection1';
+import Collection2 from '../components/Collection2/Collection2';
+import Collection3 from '../components/Collection3/Collection3';
+import Footer from '../components/Footer/Footer';
 
 export default function Home() {
   return (
@@ -13,7 +17,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero2/>
-     
+      <Collection1/>
+     <Collection2/>
+     <Collection3/>
+     <Footer/>
     </MainLayout>
   );
 }

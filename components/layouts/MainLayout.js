@@ -7,7 +7,7 @@ export default function MainLayout (props) {
     <div className="fixed-nav transparent-nav">
     <Header3/>
       <main className="fixed-nav">{props.children}</main>
-      <header>footer</header>
+      
     </div>
   );
 }
