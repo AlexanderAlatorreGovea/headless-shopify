@@ -12,11 +12,23 @@ a {
 }
 
 .fixed-nav {
-    &.transparent-nav {
+    &.transparent-nav { 
         .header {
             background: transparent;
             a {
                 color: white;
+            }
+            .header-1__collection-link,
+            .header-2__collection-link,
+            .header-3__collection-link {
+                .collection-link__sub-links {
+                    a {
+                        color: black;
+                        &:hover {
+                            color: red;
+                        }
+                    }
+                }
             }
         }
     }
